@@ -303,14 +303,9 @@ burger.addEventListener('click', () => {
 
 
 
-function AOS_MOBILE() {
-  if (matchMedia("screen and (max-width: 430px)").matches) {
-
-    $('.left_con').attr('data-aos', 'fade-down');
-
-  }
-} // 768px 이하일 때 left_con 의 애니메이션 효과를 fade-down 으로 바꾼다.
-AOS_MOBILE();
+if (window.innerWidth > 412) {
+  AOS.init();
+}
 
 
 
