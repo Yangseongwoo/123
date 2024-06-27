@@ -1,0 +1,223 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    .web_container {
+        width: 100%;
+        position: relative;
+        margin-top: -930px;
+      }
+    
+    
+      .webwater {
+        position: absolute;
+        left: 33%;
+        color: white;
+        font-family: "League Gothic", sans-serif;
+        font-weight: 400;
+        font-size: 34px;
+        text-align: center;
+        padding-right: 0;
+      }
+    
+      .artical_container {
+        width: 100%;
+        display: flex;
+        position: relative;
+      }
+    
+      .artical_web {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        flex-wrap: wrap;
+        gap: 60px;
+        top: 165%;
+        padding-left: 0;
+        z-index: 2;
+      }
+    
+      .artical {
+        width: 320px;
+        height: 430px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 38px;
+        overflow: hidden; /* 가상 요소가 요소 바깥으로 나가는 것을 방지 */
+      }
+    
+      .artical::after {
+        content: "";
+        position: absolute;
+        left: -10px; /* 그림자 위치 조정 */
+        top: 10px;
+        width: 320px;
+        height: 430px;
+        background-color: #f37423; /* 그림자 색상 및 투명도 조정 */
+        border-radius: 38px;
+    
+        z-index: -1;
+      }
+    
+      .artical2 {
+        width: 320px;
+        height: 430px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 38px;
+        overflow: hidden; /* 가상 요소가 요소 바깥으로 나가는 것을 방지 */
+      }
+    
+      .artical2::after {
+        content: "";
+        position: absolute;
+        left: -10px; /* 그림자 위치 조정 */
+        top: 10px;
+        width: 320px;
+        height: 430px;
+        background-color: #f2c6cf; /* 그림자 색상 및 투명도 조정 */
+        border-radius: 38px;
+    
+        z-index: -1;
+      }
+    
+      .artical3 {
+        width: 320px;
+        height: 430px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 38px;
+        overflow: hidden; /* 가상 요소가 요소 바깥으로 나가는 것을 방지 */
+      }
+    
+      .artical3::after {
+        content: "";
+        position: absolute;
+        left: -10px; /* 그림자 위치 조정 */
+        top: 10px;
+        width: 320px;
+        height: 430px;
+        background-color: #0075ff; /* 그림자 색상 및 투명도 조정 */
+        border-radius: 38px;
+    
+        z-index: -1;
+      }
+    
+      
+      .date_div {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #354555;
+        color: white;
+        display: flex; /* Flexbox를 활용합니다 */
+        justify-content: center; /* 가로 방향에서 중앙 정렬 */
+        align-items: center;
+        margin-top: 17px;
+        margin-left: 260px;
+      }
+    
+      .date {
+        font-size: 13px;
+      }
+    
+      .artical_text {
+        color: rgb(0, 0, 0);
+        top: 10%;
+        margin-left: 30px;
+      }
+    
+      .artttx {
+        font-size: 30px;
+      }
+    
+      .artttx2 {
+        font-size: 15px;
+      }
+    
+      .artbtt {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; /* 버튼 사이의 간격을 10px로 설정 */
+        margin-left: 270px;
+        top: 25%;
+        z-index: 3;
+      }
+    
+      .webbtn {
+        width: 97px;
+        height: 30px;
+        border-style: none;
+        border-radius: 25.5px;
+        background-color: #f19357;
+        color: white;
+        font-size: 12px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      }
+    
+      .webbtn2 {
+        width: 97px;
+        height: 30px;
+        border-style: none;
+        border-radius: 25.5px;
+        background-color: #f2c6cf;
+        color: white;
+        font-size: 12px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        margin-left: -20px;
+      }
+    
+      .webbtn3 {
+        width: 97px;
+        height: 30px;
+        border-style: none;
+        border-radius: 25.5px;
+        background-color: #0075ff;
+        color: white;
+        font-size: 12px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      }
+    
+      .web1 {
+        margin-top: 10px;
+        margin-left: 18px;
+      }
+    
+      .artical_hover {
+        width: 330px;
+        height: 430px;
+        position: relative;
+        cursor: none;
+      }
+    
+      .view_container {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+      }
+    
+      .view_text {
+        position: absolute;
+        visibility: hidden;
+        pointer-events: none; /* 마우스 이벤트가 텍스트를 통과하도록 */
+        position: absolute; /* 위치를 절대적으로 설정 */
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 100px;
+        backdrop-filter: blur(10px);
+        display: flex; /* 항상 보이도록 설정 */
+      }
+}
+
+
